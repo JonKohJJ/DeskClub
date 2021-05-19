@@ -317,10 +317,27 @@ header button:hover{
 }
 
 .location-container img{
-    width: 100%;
-    height: 100%;
+    max-width: 10rem;
+    max-height: 25rem;
     object-fit: cover;
-    display: none;
+}
+
+.locations-images-1,
+.locations-images-2{
+    position: absolute;
+}
+
+.locations-images-1{
+    top: 60%;
+    left: 60%;
+    transform: translate(-60%, -60%);
+    z-index: 1;
+}
+
+.locations-images-2{
+    top: 80%;
+    left: 90%;
+    transform: translate(-90%, -80%);
 }
 
 .location-container-inner{
@@ -373,6 +390,7 @@ header button:hover{
     padding-bottom: 1rem;
     margin: 1rem 1rem;
     font-size: 2.5rem;
+    z-index: 2;
 }
 
 
