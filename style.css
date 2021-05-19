@@ -68,8 +68,7 @@ p,
 a,
 button,
 .nav-logo,
-.footer-logo
-{
+.footer-logo{
     font-size: 1rem;
     line-height: 1.5rem;
 }
@@ -148,6 +147,7 @@ button,
     background-color: transparent;
     border-radius: 50px;
     padding: 0.5rem 2.5rem;
+    cursor: pointer;
 }
 
 /* HEADER CONTAINER*/
@@ -171,17 +171,33 @@ header > *{ /* ONLY DIRECT CHILD ELEMENTS*/
     margin-bottom: 1.5rem;
 }
 
-header button{
+header input{
+    font-family: 'Font Awesome 5 Free', 'Open Sans', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bolder;
     border: none;
     background-color: var(--accent);
     color: var(--font-white);
-    border-radius: 50px;
-    padding: 1rem 1rem;
+    border-radius: 5px;
+    padding: 1rem 5rem;
     cursor: pointer;
 }
 
-header button:hover{
-    background-color: #57c99b;;
+::-webkit-input-placeholder { /* Placeholder colour - Chrome/Opera/Safari */
+    color: var(--font-white);
+    text-align: center;
+}
+
+header input:hover{
+    background-color: #57c99b;
+}
+
+header input:focus{
+    outline: none !important;
+}
+
+header input:focus{
+    outline: none !important;
 }
 
 

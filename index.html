@@ -21,7 +21,7 @@
 </head>
 <body>
     <!-- NAV CONTAINER -->
-    <div class="nav-container">
+    <div class="nav-container" id="target-nav">
         <div class="nav-container-inner flex">
             <div class="nav-logo">deskclub</div>
             <div class="nav-links">
@@ -29,7 +29,7 @@
                     <li><a href="#">Workspace</a></li>
                     <li><a href="#target-location">Locations</a></li>
                     <li><a href="#">About</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#target-footer">Contact</a></li>
                 </ul>
             </div>
             <div class="nav-login">
@@ -45,10 +45,11 @@
     <header class="text-center">
         <h1>Together we can create better work</h1>
         <p>From desks to offices and entire headquarters, we create environments for productivity, innovation and connection.</p>
-        <button>
+        <!-- <button>
             <span class="material-icons md-36">search</span>
             Find Workspace
-        </button>
+        </button> -->
+        <input type="search" id="header-find" name="search-workspaces" placeholder="&#61442; Find Workspaces" onfocus="this.placeholder = ''" onblur="this.placeholder = '&#61442; Find Workspaces'">
     </header>
 
     <!-- HERO IMAGE -->
@@ -246,7 +247,7 @@
     </div>
 
     <!-- FOOTER CONTAINER -->
-    <div class="footer-container">
+    <div class="footer-container" id="target-footer">
         <div class="footer-container-inner">
             <div class="footer-header">
                 <h1>Ready to visit in person?</h1>
