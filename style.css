@@ -179,13 +179,13 @@ header > *{ /* ONLY DIRECT CHILD ELEMENTS*/
 
 header input{
     font-family: 'Font Awesome 5 Free', 'Open Sans', sans-serif;
-    font-size: 1.5rem;
+    font-size: 0.75rem;
     font-weight: bolder;
     border: none;
     background-color: var(--accent);
     color: var(--font-white);
     border-radius: 5px;
-    padding: 1rem 5rem;
+    padding: 1rem 1rem;
     cursor: pointer;
 }
 
@@ -669,8 +669,8 @@ header input:focus{
 
 
     /* HEADER CONTAINER */
-    header button{
-        padding: 1rem 7rem;
+    header input{
+        font-size: 1.5rem;
     }
 
     .hero-image img{
