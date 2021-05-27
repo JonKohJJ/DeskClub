@@ -1,4 +1,4 @@
-# DeskClub - co-working space website clone, design found on dribble.
+# DeskClub Landing Page - co-working space website clone, design found on dribble.
 
 Live: https://jonkohjj.github.io/DeskClub/
 
