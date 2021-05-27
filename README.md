@@ -1,6 +1,6 @@
 # DeskClub Landing Page - co-working space website clone, design found on dribble.
 
-Live: https://jonkohjj.github.io/DeskClub/
+Live: https://jonkohjj.github.io/DeskClub-Landing-Page/
 
 
 Built this website from scratch, referencing a design found on dribble - 
